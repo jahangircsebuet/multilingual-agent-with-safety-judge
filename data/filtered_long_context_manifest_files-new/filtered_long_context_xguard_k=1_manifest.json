@@ -1,0 +1,102 @@
+{
+  "model": "xguard",
+  "k": 1,
+  "guard_file": "${PROJECT_ROOT}/data/sampledid_added_classified/xguard/xguard_dataset_k=1.jsonl",
+  "permission_field": "classifier.label",
+  "permitted_label": "safe",
+  "guard_total_rows": 5403,
+  "permitted_rows": 3185,
+  "unique_permitted_ids": 3185,
+  "observed_classifier_labels": {
+    "safe": 3185,
+    "unsafe": 2215,
+    "unknown": 3
+  },
+  "long_context_file_count": 12,
+  "outputs": [
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_beginning_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_end_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_middle_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_beginning_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_end_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_middle_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_beginning_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_end_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_middle_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_beginning_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_end_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_middle_xguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 3185,
+      "missing_permitted_ids": 0
+    }
+  ]
+}

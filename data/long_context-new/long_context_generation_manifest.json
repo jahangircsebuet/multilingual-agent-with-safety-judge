@@ -1,0 +1,44 @@
+{
+  "source_file": "${PROJECT_ROOT}/data/stratified/stratified_topk_k1_with_prompts.jsonl",
+  "source_samples_processed": 5403,
+  "duplicate_samples_skipped": 0,
+  "instances_generated": 64836,
+  "variants_per_source_sample": 12,
+  "context_types": [
+    "conversation",
+    "document"
+  ],
+  "target_tokens": [
+    8192,
+    32768
+  ],
+  "positions": [
+    "beginning",
+    "middle",
+    "end"
+  ],
+  "context_language": "English",
+  "reference_tokenizer": "Qwen/Qwen2.5-14B-Instruct",
+  "prompt_field": "prompt",
+  "root_id_field": "root_id",
+  "language_field": "language",
+  "output_prompt_field": "agent_prompt",
+  "sample_id_definition": "SHA256(root_id || language || prompt)",
+  "long_context_id_definition": "SHA256(sample_id || context_type || context_length || position)",
+  "unsafe_prompt_modified": false,
+  "global_random_seed": 20260907,
+  "output_files": {
+    "conversation_8k_beginning": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_beginning.jsonl",
+    "conversation_8k_middle": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_middle.jsonl",
+    "conversation_8k_end": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_end.jsonl",
+    "conversation_32k_beginning": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_beginning.jsonl",
+    "conversation_32k_middle": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_middle.jsonl",
+    "conversation_32k_end": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_end.jsonl",
+    "document_8k_beginning": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_beginning.jsonl",
+    "document_8k_middle": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_middle.jsonl",
+    "document_8k_end": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_end.jsonl",
+    "document_32k_beginning": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_beginning.jsonl",
+    "document_32k_middle": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_middle.jsonl",
+    "document_32k_end": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_end.jsonl"
+  }
+}

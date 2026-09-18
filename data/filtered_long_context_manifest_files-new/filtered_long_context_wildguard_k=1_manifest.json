@@ -1,0 +1,101 @@
+{
+  "model": "wildguard",
+  "k": 1,
+  "guard_file": "${PROJECT_ROOT}/data/sampledid_added_classified/wildguard/wildguard_dataset_k=1.jsonl",
+  "permission_field": "classifier.label",
+  "permitted_label": "safe",
+  "guard_total_rows": 5403,
+  "permitted_rows": 134,
+  "unique_permitted_ids": 134,
+  "observed_classifier_labels": {
+    "unsafe": 5269,
+    "safe": 134
+  },
+  "long_context_file_count": 12,
+  "outputs": [
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_beginning_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_end_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_middle_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_beginning_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_end_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_middle_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_beginning_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_end_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_middle_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_beginning_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_end_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_middle_wildguard_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 134,
+      "missing_permitted_ids": 0
+    }
+  ]
+}

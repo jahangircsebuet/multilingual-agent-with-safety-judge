@@ -1,0 +1,102 @@
+{
+  "model": "guardreasoner",
+  "k": 1,
+  "guard_file": "${PROJECT_ROOT}/data/sampledid_added_classified/guardreasoner/guardreasoner_dataset_k=1.jsonl",
+  "permission_field": "classifier.label",
+  "permitted_label": "safe",
+  "guard_total_rows": 5403,
+  "permitted_rows": 416,
+  "unique_permitted_ids": 416,
+  "observed_classifier_labels": {
+    "unknown": 2733,
+    "unsafe": 2254,
+    "safe": 416
+  },
+  "long_context_file_count": 12,
+  "outputs": [
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_beginning_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_end_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_32k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_32k_middle_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_beginning_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_end_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_conversation_8k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_conversation_8k_middle_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_beginning_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_end_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_32k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_32k_middle_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_beginning.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_beginning_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_end.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_end_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    },
+    {
+      "source_file": "${PROJECT_ROOT}/data/long_context/longctx_document_8k_middle.jsonl",
+      "output_file": "${PROJECT_ROOT}/data/filtered_long_context/longctx_document_8k_middle_guardreasoner_k=1.jsonl",
+      "source_rows": 5403,
+      "filtered_rows": 416,
+      "missing_permitted_ids": 0
+    }
+  ]
+}
