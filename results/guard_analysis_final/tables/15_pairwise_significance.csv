@@ -1,0 +1,16 @@
+classifier_a,classifier_b,n_matched,a_correct_b_wrong,a_wrong_b_correct,accuracy_difference,mcnemar_exact_p
+aprielguard,aprielguard,5403,0,0,0.0,1.0
+aprielguard,crest,5403,190,1953,-0.3263002035905978,0.0
+aprielguard,guardreasoner,5403,1676,1717,-0.0075883768276883146,0.4922764083614899
+aprielguard,wildguard,5403,116,3172,-0.5656116972052563,0.0
+aprielguard,xguard,5403,661,663,-0.000370164723301869,0.9780762891938325
+crest,crest,5403,0,0,0.0,1.0
+crest,guardreasoner,5403,2411,689,0.3187118267629095,5.0241878322342624e-222
+crest,wildguard,5403,123,1416,-0.23931149361465853,6.6889360471806906e-279
+crest,xguard,5403,2039,278,0.32593003886729593,0.0
+guardreasoner,guardreasoner,5403,0,0,0.0,1.0
+guardreasoner,wildguard,5403,21,3036,-0.558023320377568,0.0
+guardreasoner,xguard,5403,1696,1657,0.0072182121043864456,0.5116716878792378
+wildguard,wildguard,5403,0,0,0.0,1.0
+wildguard,xguard,5403,3164,110,0.5652415324819544,0.0
+xguard,xguard,5403,0,0,0.0,1.0

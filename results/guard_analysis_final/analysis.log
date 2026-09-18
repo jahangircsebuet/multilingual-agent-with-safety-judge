@@ -1,0 +1,30 @@
+2026-09-14 06:38:24 | INFO | Reading /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/all_guard_predictions.jsonl
+2026-09-14 06:38:25 | INFO | Loaded 27,015 rows | 5 guards | 98 languages | k=[1] | primary k=1
+2026-09-14 06:38:25 | INFO | Gold-label counts: {'unsafe': 27015}
+2026-09-14 06:38:25 | INFO | Bootstrap 1/5: k=1, guard=aprielguard
+2026-09-14 06:38:25 | INFO | Bootstrap 2/5: k=1, guard=crest
+2026-09-14 06:38:25 | INFO | Bootstrap 3/5: k=1, guard=guardreasoner
+2026-09-14 06:38:25 | INFO | Bootstrap 4/5: k=1, guard=wildguard
+2026-09-14 06:38:25 | INFO | Bootstrap 5/5: k=1, guard=xguard
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/01_guard_metrics_by_k.csv (5 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/02_by_language.csv (490 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/03_by_category.csv (95 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/04_by_tier.csv (15 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/05_by_quality.csv (20 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/06_normalization_audit.csv (12 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/07_duplicate_predictions.csv (0 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/08_crosslingual_robustness.csv (5 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/09_macro_micro_robustness.csv (5 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/10_language_category_intersections.csv (9,310 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/11_tier_category_metrics.csv (285 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/12_root_consistency.csv (3,430 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/13_pairwise_guard_agreement.csv (15 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/14_ensemble_metrics.csv (3 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/15_pairwise_significance.csv (15 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/16_quality_correlations.csv (15 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/17_most_difficult_languages.csv (15 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/18_category_robustness.csv (19 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/19_resource_disparity.csv (5 rows)
+2026-09-14 06:38:55 | INFO | Saved /home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/guard_analysis_final/tables/20_normalization_reliability.csv (5 rows)
+2026-09-14 06:38:58 | WARNING | Skipped recall-overrefusal figure: no gold-safe examples at primary k
+2026-09-14 06:38:58 | INFO | Completed successfully in 33.4 seconds

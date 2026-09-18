@@ -1,0 +1,24 @@
+{
+  "input": "/home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/all_guard_predictions.jsonl",
+  "rows": 27015,
+  "classifiers": [
+    "aprielguard",
+    "crest",
+    "guardreasoner",
+    "wildguard",
+    "xguard"
+  ],
+  "languages": 98,
+  "categories": 19,
+  "k_values": [
+    1.0
+  ],
+  "primary_k": 1.0,
+  "gold_counts": {
+    "unsafe": 27015
+  },
+  "duplicate_rows": 0,
+  "bootstrap_repetitions": 1000,
+  "seed": 42,
+  "elapsed_seconds": 33.390462160110474
+}
