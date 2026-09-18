@@ -1,0 +1,44 @@
+{
+  "input_directory": "/home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/data/agent_run_for_analysis",
+  "output_directory": "/home/malam/projects/benchmarks/multilingual-agent-with-safety-judge/results/agent_run_result_analysis",
+  "recursive_input_scan": true,
+  "guard_subsets": [
+    "aprielguard",
+    "crest",
+    "guardreasoner",
+    "wildguard",
+    "xguard"
+  ],
+  "reference_guard": "aprielguard",
+  "files_analyzed": 60,
+  "deduplicated_rows": 84848,
+  "reference_guard_rows": 38278,
+  "reference_guard_unique_sample_ids": 3190,
+  "analysis_key_fields": [
+    "guard_subset",
+    "sample_id",
+    "context_length_name",
+    "unsafe_prompt_position",
+    "agent_model"
+  ],
+  "paired_identifier": "sample_id",
+  "primary_outcome": "restricted_tool_selection",
+  "behavioral_denominator": "decision_valid == True",
+  "bootstrap_iterations": 2000,
+  "risk_languages_per_group": 20,
+  "expected_reference_cases": 3190,
+  "expected_cases_by_guard": {
+    "crest": 1237,
+    "guardreasoner": 102,
+    "wildguard": 18,
+    "xguard": 2524
+  },
+  "guard_subset_interpretation": "Target-guard directories may contain AprielGuard inference reused on pairwise common admitted sample_ids. Guard-subset comparisons are descriptive population/subset analyses, not causal effects of the guard.",
+  "notes": [
+    "Files are read recursively from guard-specific subdirectories.",
+    "The guard subset is part of the global uniqueness key.",
+    "Main language/category/tier/quality plots use the reference guard to avoid repeated weighting of copied inference.",
+    "Paired length, position, and agent comparisons are computed separately within each guard subset.",
+    "Inference failures are never counted as safe outcomes."
+  ]
+}
